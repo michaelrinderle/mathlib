@@ -5,8 +5,6 @@
 
 int main()
 {
-	int ad = round_whole_number_at(3443, 3);
-
-
+	int ad = round_whole_number_at(5478, 2);
 	return 0;
 }
