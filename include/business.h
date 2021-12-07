@@ -6,7 +6,9 @@ extern "C" {
 
 #include "mathlib.h"
 
-    extern API int MATHCALL round_whole_number_at(int number, int place);
+#define NUM_MAX 15
+
+    extern API int MATHCALL round_whole_number_at(int number, int places);
 
 #ifdef __cplusplus
 }
