@@ -90,4 +90,6 @@ typedef unsigned char  uchar;
 #define CLEAR_BUFFER(X) memset(&X, 0, sizeof(X));
 #define PRINT_VA
 
+#define ABS(x) ((x)<0 ? -(x) : (x))
+
 #endif MATHLIBC_H

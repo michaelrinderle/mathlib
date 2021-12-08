@@ -1,10 +1,11 @@
 ﻿// mathlib.cpp
 
-#include "mathlib.h"
-#include "business.h"
+#include <mathlib.h>
+#include <basic.h>
+#include <conversions.h>
 
 int main()
 {
-	int ad = round_whole_number_at(5478, 2);
+	float i = round_percent(234.823);
 	return 0;
 }

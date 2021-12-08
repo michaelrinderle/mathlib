@@ -1,5 +1,6 @@
 #pragma once
 #include "gtest/gtest.h"
+#include "tests/basic.h"
 #include "tests/business.h"
 
 int
